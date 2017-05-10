@@ -4,11 +4,11 @@ import argparse
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-l', '--limit', type=int,
-                        help="Limit the fizzbuzz to Xth counter", required=True)
+                        help="Limit the fizzbuzzwoof to Xth counter", required=True)
     return parser.parse_args()
 
 
-def fizzbuzz():
+def fizzbuzzwoof():
     args = get_args()
     limit = args.limit
     
@@ -30,4 +30,4 @@ def fizzbuzz():
         
 
 if __name__ == "__main__":
-    fizzbuzz()
+    fizzbuzzwoof()
